@@ -1,0 +1,1064 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+/* *****************************************header******************************* */
+.header {
+    width: 100%;
+    height: 90px;
+    background-color:rgba(182, 174, 174, 0.252);
+    display: flex;
+    position: relative;
+}
+/* ********************left********** */
+.header .left{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+}
+.header .left h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.header .left h1{
+    font-size: 50px;
+}
+.header .left{
+    align-items: center;
+    display: flex;
+   margin-left: 40px;
+}
+/* ***********left******************** */
+/* ****************center************** */
+.header .center{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(168, 168, 173); */
+}
+.header .center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.header .center ul{
+    display: flex;
+}
+.header .center ul li{
+    padding-right: 50px;
+    list-style-type: none;
+}
+.header .center ul li a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    
+
+}
+.header .center ul li{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+/* ******************center********************* */
+/* --------------------center hover------------------ */
+.header .center ul li a::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    bottom: -2px;
+}
+#hr{
+    width: 45px ;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    bottom: 25px;
+
+}
+.header .center ul li a:hover::before{
+    width: 50%;
+    height: 4px;
+    background-color: red;
+    transition: 0.9s;
+    right: 50%;
+}
+.header .center ul li a::after{
+    width: 0;
+    height: 4px;
+    content: "";
+    position: absolute;
+    background-color: red;
+    bottom: -2px;
+}
+.header .center ul li a:hover::after{
+    width: 50%;
+    height: 4px;
+    background-color: red;
+    left: 50%;
+    transition: 0.9s;
+}
+#id{
+    position: relative;
+}
+#id{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: red;
+
+
+}
+
+
+/* ---------------center hover------------------------- */
+/* *******************right**************** */
+.header .right{
+    width: 25%;
+    height: 100%;
+    /* background-color: chocolate; */
+    margin-right: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  
+
+}
+.header .right h1{
+   margin-right: 20px;
+   
+
+   
+}
+.header .right i{
+    position: relative;
+    padding-left: 20px;
+    
+}
+
+.header .right .t1{
+    position: absolute;
+    padding: 2px 2px 4px 2px;
+    background-color: black;
+    margin-left: 130px;
+    border-radius: 50%;
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.header .right .t2{
+    position: absolute;
+    margin-left: 199px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+/* ********************right*********************** */
+
+/* *****************************************header************************************* */
+/* ---------------------------------------main----------------------------------------- */
+.main{
+    width: 100%;
+    height: 550px;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main .left{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    margin-left: 40px;
+    margin-right: 10px;
+    position: relative;
+}
+.main .left img{
+    object-fit: cover;
+   position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main .left .text{
+    position: absolute;
+    color: black;
+    padding: 250px 70px;
+}
+.main .left .text h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.main .left .text hr{
+    width: 100px;
+    background-color: red;
+    color: red;
+    height: 5px;
+}
+.main .left .text p{
+    color: rgb(108, 100, 100);
+}
+.main .right{
+    width: 49%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    margin-right: 40px;
+}
+.main .right .up{
+    width: 100%;
+    height: 49%;
+    /* background-color: deeppink; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main .right .down{
+    width: 100%;
+    height: 49%;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.main .right .up .up1{
+    width: 49%;
+    height: 100%;
+    position: relative;
+    /* background-color: teal; */
+    /* position: relative; */
+}
+
+.main .right .up .up2{
+    width: 49.5%;
+    height: 100%;
+    /* background-color: blue; */
+    /* position: relative; */
+}
+.main .right .down .down1{
+    width: 49%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.main .right .down .down2{
+    width: 49.5%;
+    height: 100%;
+    /* background-color: rgb(19, 139, 172); */
+
+}
+.main .right .up .up1{
+    position: relative;
+    overflow: hidden;
+}
+.main .right .up .up1 img{
+    object-fit: cover;
+    position: absolute;
+}
+.main .right .up .up1 .text{
+    position: absolute;
+    padding: 110px 50px;
+}
+.main .right .up .up1 .text hr{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+}
+.main .right .up .up1 .text p{
+    color: rgba(0, 0, 0, 0.539);
+}
+.main .right .up .up2{
+    position: relative;
+    overflow: hidden;
+ 
+}
+.main .right .up .up2 img{
+    object-fit: cover;
+    position: absolute;
+}
+.main .right .up .up2 .text{
+    position: absolute;
+    padding: 110px 50px;
+}
+.main .right .up .up2 .text hr{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+}
+.main .right .up .up2 .text p{
+    color: rgba(0, 0, 0, 0.539);
+}
+.main .right .up .up2 .text{
+    position: absolute;
+
+}
+.main .down .down1{
+    position: relative;
+    overflow: hidden;
+}
+.main .right .down .down1 .text{
+    position: absolute;
+    padding: 110px 50px;
+}
+.main .right .down .down1 .text hr{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+}
+.main .right .down .down1 .text p{
+    color: rgba(0, 0, 0, 0.539);
+}
+.main .down .down1 img{
+    object-fit: cover;
+    position: absolute;
+}
+
+.main .down .down2{
+    position: relative;
+    overflow: hidden;
+ 
+}
+.main .down .down2 img{
+    object-fit: cover;
+    position: absolute;
+}
+.main .right .down .down2 .text{
+    position: absolute;
+    padding: 110px 50px;
+}
+.main .right .down .down2 .text hr{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+}
+.main .right .down .down2 .text p{
+    color: rgba(0, 0, 0, 0.539);
+}
+/* -----------------------------------------main----------------------------------------- */
+/* =========================================col========================================== */
+
+.col{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(128, 128, 128, 0.699) (239, 235, 235);
+    display: flex;
+    justify-content: space-between;
+
+}
+.col .left{
+    width: 47.7%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.433);
+    margin-left: 170px;
+    align-items: center;
+    display: flex;
+}
+.col .right{
+    width: 51.7%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.336);
+    margin-right: 170px;
+    align-items: center;
+    display: flex;
+  
+}
+.col .right ul{
+    display: flex;
+    margin-left: 14%;
+   
+  
+}
+.col .right ul li{
+    list-style-type: none;   
+}
+.col .right ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.col .left hr{
+    width: 80px;
+    height: 5px;
+    background-color: red; 
+}
+
+/* ===========================================col========================================= */ 
+/* ===========================================lam======================================== */
+.lam{
+    width: 77.5%;
+    height: 500px;
+    /* background-color: chartreuse; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lam .lam1{
+    width: 23%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    overflow: hidden;  
+    position: relative; 
+}
+.lam .lam1 .pic{
+    width: 100%;
+    height: 70%;
+    background-color: red;
+    overflow: hidden;
+    position: absolute;
+}
+.lam .lam1 .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+}
+
+
+.lam .pic .span .icon i{
+    margin: 2px 10px;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 50%;
+    background-color: white;  
+
+}
+.lam .lam1 .pic .span{
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    position: absolute;
+    bottom: -15%;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+}
+.lam .lam1 .pic .span:hover{
+    position: absolute;
+    bottom: 10%;
+    transition: 0.5s;
+  
+}
+.lam .lam1 .pic .span i:hover{
+    background-color: red;
+    color: white;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.lam .lam1 .pic .span .icon{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.lam .lam1 .text{
+    width: 100%;
+    height: 30%;
+    /* background-color: teal; */
+    text-align: center;
+    padding-top: 30px;    
+    position: absolute;
+    top: 70%;
+}
+.lam .lam1 .text p{
+    color: rgb(79, 73, 73);
+}
+.lam .lam1 .text i{
+    color: goldenrod;
+}
+
+/* --------------------------------------------Lam------------------------------------- */
+
+/* -------------------------------------------collection----------------------- */
+.collection{
+    width: 100%;
+    height: 450px;
+    background-color: fuchsia;
+    overflow: hidden;
+    position: relative;
+}
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.collection .text-col{
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    /* padding-top: 160px; */
+}
+.collection .text-col .txt{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background-color: blue; */
+
+}
+.collection .text-col .txt .box-text{
+    width: 600px;
+    height: auto;
+    /* background-color: hotpink; */
+    text-align: center;
+    animation-name: run;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+@keyframes run{
+    0%{
+        transform: translateX(-100%);
+
+    }
+    50%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translateX(100%);
+        transition: 1s;
+    }
+}
+/* ------------------------------------------collection------------------------ */
+/* =======================================content---------------------- */
+
+.content{
+    width: 77.5%;
+    height: 600px;
+    /* background-color: cadetblue; */
+    margin-top: 90px;
+    margin-left: 170px;
+    margin-bottom: 90px;
+    position: relative;
+}
+.content .head{
+    width: 100%;
+    height: 20%;
+    /* background-color: blueviolet; */
+    margin-bottom: 35px;
+    display: flex;
+}
+.content .head .head1{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(70, 187, 24) */
+    align-items: center;
+    display: flex;
+}
+.content .head .head1 .text p{
+    font-size: 22px;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.content .head .head1 .text hr{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    
+}
+.content .head .head2{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(173, 206, 28); */
+    align-items: center;
+    display: flex;
+
+}
+.content .head .head2 .text p{
+    font-size: 22px;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.content .head .head2 .text hr{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    
+}
+.content .head .head3{
+    width: 34%;
+    height: 100%;
+    /* background-color: rgb(85, 12, 168); */
+    align-items: center;
+    display: flex;
+}
+.content .head .head3 .text p{
+    font-size: 22px;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.content .head .head3 .text hr{
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    
+}
+.a{
+    width: 100%;
+    height: 20.9%;
+    /* background-color: blueviolet; */
+    margin-bottom: 35px;
+    display: flex;
+}
+.content .a .a1{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(70, 187, 24); */
+    display: flex;
+}
+.content .a .a1 .left{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.content .a .a1 .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content .a .a1 .left .text{
+    align-items: center;
+    display: flex;
+}
+.content .a .a1 .right{
+    width: 60%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+}
+.content .a .a1 .right .text i{
+    color: gold;
+    font-size: 10px;
+
+}
+
+.content .a .a1 .left{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+.content .a .a1 .right{
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.content .a .a2{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(16, 72, 215); */
+    display: flex;
+}
+.content .a .a2 .left{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.content .a .a2 .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content .a .a2 .right{
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+}
+.content .a .a2 .right i{
+    color: gold;
+    font-size: 10px;
+}
+.content .a .a3{
+    width: 34%;
+    height: 100%;
+    /* background-color: rgb(179, 40, 117); */
+    display: flex;
+   
+}
+.content .a .a3 .left{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+.content .a .a3 .right{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(12, 164, 60); */
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+}
+.content .a .a3 .right i{
+    color: gold;
+    font-size: 10px;
+
+}
+.content .a .a3 .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* -----------------------------------copy content------------------- */
+
+/*========================================content======================= */
+/* --------------------------------------summer------------------------- */
+
+.summer{
+    width: 77.5%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    margin-left: 170px;
+    display: flex;
+}
+.summer .left{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+    overflow: hidden;
+}
+.summer .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.summer .right{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(209, 219, 220, 0.387);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.summer .right .text{
+    padding-top: 100px;
+    
+}
+/* ---------------------------------------summer-------------------------- */
+
+/* -----------------------------------------logo-------------------------- */
+
+.logo{
+    width: 77.5%;
+    height: 70px;
+    /* background-color: blueviolet; */
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.logo .go1{
+    width: 23%;
+    height: 100%;
+    /* background-color: rgb(38, 212, 165); */
+    display: flex;
+}
+.logo .go1 .pic{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    align-items: center;
+}
+.logo .go1 .pic i{
+    font-size: 70px;
+    background-color: white;
+    color: red;
+}
+.logo .go1 .text{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.logo .go2{
+    width: 23%;
+    height: 100%;
+    /* background-color: brown */
+    display: flex;
+}
+.logo .go2 .pic{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    align-items: center;
+}
+.logo .go2 .pic i{
+    font-size: 72px;
+    background-color: white;
+    color: red;
+}
+.logo .go2 .text{
+    width: 70%;
+    height: 1005;
+    /* background-color: yellow; */
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.logo .go3{
+    width: 23%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.logo .go3 .pic i{
+    font-size: 71px;
+    width: 100%;
+    background-color: white;
+    color: red;
+}
+.logo .go3 .pic {
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    align-items: center;
+}
+.logo .go3 .text{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.logo .go4{
+    width: 23%;
+    height: 100%;
+    /* background-color: cyan; */
+    display: flex;
+}
+.logo .go4 .pic{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+}
+.logo .go4 .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+
+}
+.logo .go4 .text{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/* ------------------------------------------logo-------------------------- */
+/* -----------------------------------------instagram-------------------------- */
+.instagram{
+    width: 100%;
+    height: 300px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.instagram .ig-box{
+    width: 16%;
+    height: 100%;
+    background-color: red;
+    position: relative;
+}
+.instagram .ig-box{
+    overflow: hidden;
+}
+.instagram .ig-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: relative; */
+    
+}
+.instagram .ig-box .ig-icon{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 237, 238, 0.591);
+    position: absolute;
+    top: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    padding-top:150px;
+}
+.instagram .ig-box:hover .ig-icon{
+    display: flex;
+    transition:0.5s;
+}
+
+/* ---------------------------------------instagraam------------------------------ */
+
+/* ---------------------------------------ela----------------------------- */
+.ela{
+    width:78.5%;
+    height: 200px;
+    /* background-color: gray; */
+    margin-left: 170px;
+    
+    display: flex;
+    margin-top: 60px;
+}
+.ela .ab{
+    width: 30%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    /* display: flex; */
+}
+
+.ela .ab .a1{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(0, 255, 123); */
+}
+
+.ela .ab .a1 h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+.ela .ab .a1 h3{
+    font-size: 50px;
+}
+
+.ela .ab .a2{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(129, 8, 106); */
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+   
+}
+.ela .ab .a2 .pic1 img{
+    padding-right: 15px;
+    
+}
+
+.ela .b{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+    padding-left: 30px;
+}
+.ela .c{
+    width: 20%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding-left: 30px;
+}
+.ela .d{
+    width: 30%;
+    height: 100%;
+    /* background-color: chocolate; */
+}
+.ela .d .d1{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+}
+.ela .d .d2{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(215, 215, 21); */
+    display: flex;
+    padding: 10px 0px;
+    position: relative;
+  
+}
+.ela .d .d2 .box{
+    position: absolute;
+}
+
+.ela .d .d2 .box form input{
+    border-radius: 40px;
+    width: ;
+    height: 50px;
+    padding: 20px 20px;
+  
+}
+.ela .d .d2 .box2{
+    background-color: red;
+    align-items: center;
+    display: flex;
+    border-radius: 40px;
+    padding: 13px 20px;
+    position: absolute;
+    right: 50px;
+   
+}
+.ela .d .d2 .box2 h3{
+    color: white;
+}
+.ela .d .d3{
+    width: 100%;
+    height: 45%;
+    /* background-color: hotpink; */
+}
+.ela .d .d3{
+    padding-top: 30px;
+}
+.ela .d .d3 i{
+    background-color: rgba(94, 92, 92, 0.477);
+    padding: 15px 15px;
+    border-radius: 50%;
+ 
+}
+
+
+/* ----------------------------------------ela---------------------------- */
